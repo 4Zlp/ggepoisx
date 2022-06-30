@@ -20,7 +20,7 @@
         TaskManager#7996 @ discord.gg		
 --]]
 
-
+local version = loadstring(game:HttpGet("https://raw.githubusercontent.com/4Zlp/ggepoisx/main/Version"))()
 local finity = {}
 finity.gs = {}
 
@@ -173,7 +173,7 @@ function finity.new(isdark, gprojectName, thinProject)
 		finityData.ToggleKey = NewKey
 		
 		if not projectName then
-			self2.tip.Text = "CheapWare"
+			self2.tip.Text = "Figma Cheats | "..version
 		end
 		
 		if finityData.UpConnection then
